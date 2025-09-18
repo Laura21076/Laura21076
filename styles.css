@@ -12,7 +12,7 @@ body {
 }
 
 .pastel-bg {
-  background: linear-gradient(135deg, #fbb1bd, #a3c4f3);
+  background: #FFE6EA;
   color: #222;
 }
 
@@ -29,28 +29,6 @@ body {
 
 footer a:hover {
   color: #fbb1bd;
-}
-
-/* Botón Volver Arriba */
-.btn-top {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background-color: #9b5de5;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  padding: 10px 14px;
-  font-size: 2rem;
-  display: none;
-  cursor: pointer;
-  z-index: 1000;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.btn-top:hover {
-  background-color: #fbb1bd;
-  transform: scale(1.1);
 }
 
 /* Animaciones */
@@ -71,3 +49,4 @@ h1, h2 {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
