@@ -12,7 +12,7 @@ body {
 }
 
 .pastel-bg {
-  background: #FFE6EA;
+  background: #C3B1E1;
   color: #222;
 }
 
@@ -49,4 +49,5 @@ h1, h2 {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
 
