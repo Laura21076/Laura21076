@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+body {
+  background-color: #fdfdff;
+  font-family: "Righteous", sans-serif;
+  color: #333;
+}
+
+.pastel-text {
+  color: #fef6ff;
+}
+
+.pastel-bg {
+  background: linear-gradient(135deg, #fbb1bd, #a3c4f3);
+  color: #222;
+}
+
+.pastel-card {
+  background-color: #fef6ff;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pastel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(155, 93, 229, 0.2);
+}
+
+footer a:hover {
+  color: #fbb1bd;
+}
+
+/* Botón Volver Arriba */
+.btn-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #9b5de5;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 14px;
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+  z-index: 1000;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-top:hover {
+  background-color: #fbb1bd;
+  transform: scale(1.1);
+}
+
+/* Animaciones */
+h1, h2 {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.card {
+  animation: slideUp 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
